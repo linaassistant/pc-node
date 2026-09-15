@@ -6,7 +6,7 @@
 #        openclaw CLI -> node host service (gateway: huzaifa-cloud) -> pairing pending.
 set -uo pipefail
 
-GW="${GW:-huzaifa-cloud}"
+GW="${GW:-100.127.173.53}"
 PORT="${PORT:-18789}"
 NAME="${NAME:-zain-kali}"
 
